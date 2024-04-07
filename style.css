@@ -1,0 +1,48 @@
+body {
+    font-family: "EB Garamond";
+    background-color: #ffeaab;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dashed black;
+}
+.header__heading {
+    font-style: italic;
+    font-size: 2.5vmax;
+}
+.main__button_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.main__button {
+    padding: 10px;
+    font-family: "EB Garamond";
+    font-size: 200%;
+    background-color: #ffe878;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.main__button:hover {
+    background-color: #f7e89f;
+}
+.main__wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    justify-content: center;
+}
+.main__img {
+    max-width: 100%;
+    min-height: 100%;
+}
+.main__img_box {
+    max-width: 20%;
+    max-height: 150px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 10px;
+}
